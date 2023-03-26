@@ -42,6 +42,6 @@ def create_thumbnail(input_image_path, output_image_path, thumbnail_size=(500, 2
 
 if __name__ == "__main__":
     input_image_path = "1.jpg"
-    output_image_path = "1a.jpg"
+    output_image_path = "1-thumb.jpg"
 
     create_thumbnail(input_image_path, output_image_path)
